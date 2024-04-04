@@ -4,7 +4,7 @@ import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { auth } from "../Firebase.jsx";
 import { useEffect } from "react";
 import { loginUser, logoutUser } from "../redux/slices/userSlice.jsx";
-
+import React from 'react';
 
 const Header = () => {
   const userInfo = useSelector(store => store.user.userInfo);

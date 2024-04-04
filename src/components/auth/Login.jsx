@@ -4,6 +4,7 @@ import { auth } from "../../Firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import React from 'react';
 import { useDispatch } from "react-redux";
 import { loginUser } from "../../redux/slices/userSlice.jsx";
 

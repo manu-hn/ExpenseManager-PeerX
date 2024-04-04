@@ -4,7 +4,7 @@ import Form from './Form';
 import { useDispatch } from 'react-redux';
 import { createExpense } from '../../redux/slices/expenseSlice';
 import { toggleModalWindow } from '../../redux/slices/userSlice';
-
+import React from 'react';
 
 const ModalForm = () => {
     const dispatch = useDispatch();

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { deleteExpense, } from '../../redux/slices/expenseSlice';
 import { toggleDeleteWindow } from '../../redux/slices/userSlice';
-
+import React from 'react';
 
 const DeleteWindow = ({ index }) => {
     const dispatch = useDispatch()

@@ -1,4 +1,4 @@
-
+import React from 'react';
 import ModalForm from "../modal/ModalForm";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleModalWindow, toggleDeleteWindow, toggleUpdateWindow } from "../../redux/slices/userSlice";

@@ -1,6 +1,6 @@
 
 import Header from "./Header"
-
+import React from 'react';
 import Login from "./auth/Login"
 import { BrowserRouter, Route, Routes, } from "react-router-dom"
 import SignUp from "./auth/SignUp"

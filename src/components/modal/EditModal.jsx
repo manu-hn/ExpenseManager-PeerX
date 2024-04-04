@@ -3,7 +3,7 @@ import Form from './Form'
 import { useDispatch } from 'react-redux'
 import {  toggleUpdateWindow } from '../../redux/slices/userSlice'
 import { editExpense } from '../../redux/slices/expenseSlice'
-
+import React from 'react';
 const EditModal = ({ index }) => {
     const dispatch = useDispatch()
 

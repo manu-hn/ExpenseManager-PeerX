@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import { MdOutlineCancel } from 'react-icons/md';
 import { useDispatch, useSelector } from 'react-redux';
@@ -21,7 +22,7 @@ const Form = ({ expenseCreator, title, type }) => {
     });
     const dispatch = useDispatch();
     const { isModalOpen, userInfo, isUpdateModalOpen } = useSelector(store => store?.user);
-    console.log(expenseData)
+
     const handleDataChange = (e) => {
         const date = startDate.getDate();
         const month = startDate.getMonth() + 1;

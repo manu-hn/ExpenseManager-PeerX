@@ -10,9 +10,6 @@ import ExpenseManager from "./expense/ExpenseManager.jsx";
 
 const Body = () => {
 
-
-
-
   return (
     <div>
       <BrowserRouter>

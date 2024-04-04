@@ -19,7 +19,7 @@ const ExpenseManager = () => {
   const userInfo = useSelector(store => store.user.userInfo);
 
   const { isModalOpen, isDeleteModalOpen, isUpdateModalOpen } = useSelector(store => store.user);
-  // console.log(expensesInfo?.dateOfExpense)
+  
   const filteredExpenses = (expenses) => {
     if (!searchText) {
       setSearchedExpense(expenses);
@@ -42,7 +42,7 @@ const ExpenseManager = () => {
     const results = expensesInfo.filter((expense)=>{
       return expense.dateOfExpense=== fullDate
     })
-    console.log(fullDate)
+    
     // console.log(results)
 
     setSearchedExpense(results);
